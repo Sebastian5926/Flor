@@ -1,0 +1,63 @@
+.cajadibujo {
+    width: 420px;
+    height: 600px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: transparent;
+    display: grid; /* Esto activa la cuadrícula */
+    grid-template-columns: repeat(7, 60px); /* 7 columnas, cada una de 60px */
+    grid-template-rows: repeat(10, 60px); /* 10 filas, cada una de 60px */
+}
+
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pixeles {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.colorrojooscuro {
+    background-color: #8B0000;
+}
+
+.colorrojo {
+    background-color: #FF0000;
+}
+
+.rojodos {
+    background-color:#D32F2F;
+}
+
+.colorverdeoscuro {
+    background-color: #3a7352;
+}
+
+.tallo {
+    background-color: #5ba67b;
+}
+
+.hoja {
+    background-color: #3f8c5e;
+}
+
+body {
+    background-color: #92d9fc;
+}
+
+.cesped {
+    width: 100%;
+    height: 44px; /* Ajusta la altura según sea necesario */
+    background-color: #5ba67b;
+    position: absolute;
+    bottom: 0; /* Lo coloca al final del contenedor */
+    left: 0;
+}
